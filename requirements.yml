@@ -1,0 +1,17 @@
+name: CSB320_Labs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - ipython
+  - pip
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - pip:
+      - black
+      - nbqa
